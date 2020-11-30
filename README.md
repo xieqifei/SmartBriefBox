@@ -1,19 +1,3 @@
----
-title: 基于ESP8266WIFI模块和MPU6050传感器在Arduino上开发智能信箱
-top: false
-cover: false
-toc: true
-mathjax: false
-date: 2020-11-24 23:37:07
-password:
-summary:
-tags:
-- Arduino
-- ESP8266
-- MPU6050
-categories:	嵌入式
----
-
 # 1：开篇
 
 在德国，每家每户都有一个信箱，家庭的电气暖账单，亲人的问候，个人的信件都会装到这个小小的箱子里。。相较于送货到人的快递，信件往往被我们所忽略，常宅在家的我，一两个星期才会检查一次信箱。虽然信件通常不重要，但检查信箱还是有点麻烦。于是，我设计了一个小小的模块，让它代替我检查信箱，每当有新的信件进入信箱，它就发送一条微信消息，提醒我取信件。
@@ -57,6 +41,10 @@ Arduino用于接收传感器的数据，并处理计算，判断是否信箱口�
 面包板图
 
 ![](https://i.loli.net/2020/11/30/9ZDSA3qTaPJ1tVe.png)
+
+样品：
+
+![](https://i.loli.net/2020/11/30/VhrcKqZEk5UBfG2.png)
 
 ## 2.1 电源设计
 
